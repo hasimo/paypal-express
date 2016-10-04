@@ -29,7 +29,8 @@ module Paypal
           :PWD => self.password,
           :SIGNATURE => self.signature,
           :SUBJECT => self.subject,
-          :VERSION => self.version
+          :VERSION => self.version,
+          :version => self.version
         }
       end
 
